@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen grid justify-center items-center">
+    <section class="w-[500px]">
+      <div class="flex justify-between items-center pr-4 mb-4">
+        <input
+          type="text"
+          placeholder="Type here"
+          class="input"
+          id="my-task-input"
+        />
+        <button class="btn btn-neutral w-21" id="add-button">Add</button>
+      </div>
+      <!-- List Container -->
+      <ul
+        class="list bg-base-100 rounded-box shadow-md"
+        id="list-container"
+      ></ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
