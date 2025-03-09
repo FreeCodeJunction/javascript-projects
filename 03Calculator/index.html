@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator | Mini</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fb9ffdad9e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="@container/body grid h-screen place-items-center">
+    <main class="w-90 border rounded-lg border-cyan-100 p-4">
+      <!-- calculator  display -->
+      <div
+        class="flex items-center flex-row-reverse pr-4 bg-gray-900 h-30 rounded-xl shadow-2xl"
+      >
+        <span
+          class="text-5xl font-semibold overflow-hidden"
+          id="display-calculation"
+          >0</span
+        >
+      </div>
+
+      <!-- calculator buttons -->
+      <div
+        id="calculator-buttons-container"
+        class="grid grid-cols-4 gap-1 mt-4"
+      >
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          %
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          CE
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          C
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          del
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          7
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          8
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          9
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          <i data-text="/" class="fa-solid fa-divide"></i>
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          4
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          5
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          6
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          <i data-text="*" class="fa-solid fa-xmark"></i>
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          1
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          2
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          3
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          <span class="scale-200">-</span>
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          0
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          <span class="scale-150">.</span>
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          <span class="scale-110">=</span>
+        </button>
+        <button
+          class="btn py-6 rounded-md font-medium hover:bg-slate-500 text-lg"
+        >
+          <span class="scale-110">+</span>
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
