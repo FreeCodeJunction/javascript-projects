@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="min-h-screen grid place-items-center">
+    <main class="w-[600px]">
+      <div
+        class="card card-border bg-base-100 w-full"
+        id="card-container"
+      ></div>
+      <div class="flex justify-center mt-4">
+        <div class="stats shadow mb-5">
+          <div class="stat place-items-center">
+            <div class="stat-title">Questions Left</div>
+            <div class="stat-value" id="total-question">31K</div>
+          </div>
+
+          <div class="stat place-items-center">
+            <div class="stat-title">Right Answer</div>
+            <div class="stat-value text-secondary" id="right-answer">4,200</div>
+          </div>
+          <div class="stat place-items-center">
+            <div class="stat-title">Wrong Answer</div>
+            <div class="stat-value text-secondary" id="wrong-answer">4,200</div>
+          </div>
+          <div class="stat place-items-center">
+            <div class="stat-title">Total Marks</div>
+            <div class="stat-value" id="total-marks">1,200</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
