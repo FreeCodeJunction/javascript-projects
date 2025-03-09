@@ -1,5 +1,9 @@
 # All sites Links
+
 ## Basic Projects
+
 ### 01. [Todo App](https://freecodejunction.github.io/javascript-projects/01TodoApp/)
+
 ### 02. [Quiz App](https://freecodejunction.github.io/javascript-projects/02QuizApp/)
+
 ### 03. [Calculator Mini](https://freecodejunction.github.io/javascript-projects/03Calculator/)
