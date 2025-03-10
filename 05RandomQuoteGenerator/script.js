@@ -125,8 +125,6 @@ class RandomQuoteGenerator {
     if (e.target.classList.contains("next-quote")) {
       if (this.uniqueSet.size === this.randomQuotes.length) {
         this.uniqueSet.clear();
-        console.log("set length: ", this.uniqueSet.size);
-        console.log("quote array length: ", this.randomQuotes.length);
       }
       let randomIndex = Math.floor(Math.random() * this.randomQuotes.length);
       while (this.uniqueSet.has(randomIndex)) {
@@ -135,9 +133,6 @@ class RandomQuoteGenerator {
       this.uniqueSet.add(randomIndex);
       this.currentQuote = this.randomQuotes[randomIndex];
       this.renderQuotes();
-      console.log("coming");
-      console.log("set length: ", this.uniqueSet.size);
-      console.log("quote array length: ", this.randomQuotes.length);
     }
   }
   renderQuotes() {

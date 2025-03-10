@@ -10,4 +10,6 @@
 
 ### 04. [CountDown Mini](https://freecodejunction.github.io/javascript-projects/04CountDownTimer/)
 
-### 05. [RandomQuote Generator](https://freecodejunction.github.io/javascript-projects/https://freecodejunction.github.io/javascript-projects/05RandomQuoteGenerator/)
+### 05. [RandomQuote Generator](https://freecodejunction.github.io/javascript-projects/05RandomQuoteGenerator/)
+
+### 06. [BMI Calculator](https://freecodejunction.github.io/javascript-projects/06BMICalculator/)

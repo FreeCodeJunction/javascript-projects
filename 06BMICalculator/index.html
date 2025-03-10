@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="synthwave">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="h-screen grid">
+    <main class="@container/main flex items-center justify-center">
+      <div class="hero bg-base-200 max-w-[815px] rounded-lg lg:p-6">
+        <div
+          class="hero-content w-full grid grid-cols-1 lg:grid-cols-2 auto-rows-fr"
+        >
+          <div
+            class="card bg-base-100 w-full mx-auto max-w-sm shrink-0 shadow-2xl"
+          >
+            <div class="card-body min-w-80" id="card-body">
+              <fieldset class="fieldset">
+                <label class="fieldset-label">Height </label>
+                <input
+                  type="number"
+                  class="input height-input"
+                  placeholder="meter"
+                />
+                <label class="fieldset-label">Weight</label>
+                <input
+                  type="number"
+                  class="input weight-input"
+                  placeholder="kg"
+                />
+                <div class="pt-2">
+                  <a class="link link-hover hints-input">Give vale carefully</a>
+                </div>
+                <button class="btn btn-neutral mt-4 calculate-btn" disabled>
+                  Calculate
+                </button>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            class="text-center max-w-[450px] mx-auto flex flex-col items-center lg:max-w-full lg:text-left"
+            id="show-result"
+          >
+            <h1 class="text-5xl font-bold">Calculate BMI</h1>
+            <p class="py-6">
+              This is a minimalistic BMI calculator. Calculate your BMI and See
+              which category your are in. And based On the BMI , maintain your
+              health carefully.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
