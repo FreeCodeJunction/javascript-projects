@@ -74,6 +74,10 @@ class BMICalculator {
     this.hintsInput.classList.remove("text-red-600");
     this.hintsInput.textContent = key + "is ok";
     if (this.isHeightOk && this.isWeightOk) {
+      this.hintsInput.innerText = "All ok";
+      this.hintsInput.classList.add("text-green-600");
+      this.hintsInput.classList.remove("text-red-600");
+
       document
         .querySelector(".calculate-btn")
         .removeAttribute("disabled", false);
