@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@$5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body class="grid place-items-center h-screen">
+    <div class="stats stats-vertical lg:stats-horizontal shadow">
+      <div class="stat">
+        <div class="stat-value" id="hour">31K</div>
+        <div class="stat-title text-center">Hour</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-value" id="minute">4,200</div>
+        <div class="stat-title text-center">Minute</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-value" id="second">1,200</div>
+        <div class="stat-title text-center">Second</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
