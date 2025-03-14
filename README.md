@@ -15,3 +15,5 @@
 ### 06. [BMI Calculator](https://freecodejunction.github.io/javascript-projects/06BMICalculator/)
 
 ### 07. [Digital Clock](https://freecodejunction.github.io/javascript-projects/07DigitalClock/)
+
+### 08. [Palindrome Checker](https://freecodejunction.github.io/javascript-projects/08PalindromeChecker/)
